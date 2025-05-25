@@ -1,0 +1,89 @@
+data_story:
+  executive: |
+    Generate a concise executive summary highlighting key business insights from this dataset.
+    Focus on actionable recommendations and strategic implications. Structure your response with:
+    1. Key Findings (3 bullet points max)
+    2. Business Impact Analysis
+    3. Recommended Actions
+    4. Risk Assessment
+  analyst: |
+    Provide a detailed technical analysis of the dataset. Include:
+    1. Data Quality Assessment
+    2. Statistical Insights
+    3. Correlation Analysis
+    4. Anomaly Detection
+    5. Modeling Recommendations
+  marketer: |
+    Generate marketing-focused insights including:
+    1. Customer Segmentation Analysis
+    2. Behavioral Patterns
+    3. Campaign Performance Assessment
+    4. Engagement Recommendations
+    5. ROI Optimization Strategies
+  data_scientist: |
+    Provide a technical deep dive analysis including:
+    1. Feature importance analysis
+    2. Potential predictive modeling approaches
+    3. Data quality impact on modeling
+    4. Advanced visualization recommendations
+    5. Anomaly detection insights
+  default: |
+    Provide a comprehensive analysis of the dataset covering:
+    1. Key characteristics
+    2. Notable patterns
+    3. Potential insights
+    4. Recommended next steps
+
+automated_insights:
+  default: |
+    Analyze this dataset and identify the 5 most significant insights.
+    For each insight, provide:
+    - Insight title
+    - Description
+    - Supporting evidence
+    - Business implication
+    - Confidence score (1-5)
+    Format as a numbered list.
+  technical: |
+    Perform technical analysis of the dataset and identify:
+    1. Data quality issues
+    2. Statistical properties
+    3. Significant correlations
+    4. Potential predictive relationships
+    5. Recommended visualizations
+
+debate:
+  optimist: |
+    Highlight the most positive aspects, growth opportunities, and strengths in the data. 
+    Focus on:
+    1. Upward trends and positive correlations
+    2. Successful patterns and best performers
+    3. Potential for expansion and improvement
+    4. Reasons for optimism based on the data
+  pessimist: |
+    Highlight risks, negative trends, and weaknesses in the data. Focus on:
+    1. Downward trends and negative correlations
+    2. Problem areas and underperformers
+    3. Potential threats and vulnerabilities
+    4. Reasons for caution based on the data
+  realist: |
+    Provide a balanced analysis weighing both positive and negative aspects objectively.
+    Include:
+    1. Both sides of key findings
+    2. Context for interpreting the data
+    3. Realistic expectations
+    4. Balanced recommendations
+  contrarian: |
+    Provide alternative interpretations that challenge obvious conclusions from the data.
+    Include:
+    1. Counterintuitive findings
+    2. Alternative explanations for patterns
+    3. Overlooked factors
+    4. Reasons why conventional wisdom might be wrong
+  default: |
+    Provide a perspective on this data analysis topic.
+    Structure your response with:
+    1. Key points supporting this perspective
+    2. Data evidence
+    3. Potential implications
+    4. Limitations of this view
